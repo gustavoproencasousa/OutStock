@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'Widgets/botoes.dart';
 import 'TelaSelect.dart';
 import 'TelaCadastro.dart';
+import 'Widgets/botaoenter.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -33,7 +34,7 @@ class _HomeState extends State<Home> {
             children: <Widget>[
               InputTextos("Usuário", "Usuário", controller: _usuario),
               InputTextos("Senha", "Senha", controller: _senha),
-              Botoes("Logar", onPressed: _click),
+              BotaoEnter("Logar", onPressed: _click),
               Botoes("Criar", onPressed: _cadastro)
             ]));
   }
