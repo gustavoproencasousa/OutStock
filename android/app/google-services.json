@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "538409478949",
+    "project_id": "outstock-2a910",
+    "storage_bucket": "outstock-2a910.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538409478949:android:a30e6f594053e6222288cc",
+        "android_client_info": {
+          "package_name": "com.example.outstock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmIgJ1Du519XPM8v6oZQDkDH_BefZ7aPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
